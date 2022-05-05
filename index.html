@@ -69,7 +69,8 @@
                 <!--This section is who to contact me-->
                 <h2 id="Contact"class="contactform">Contact</h2>
                     <a href="https://www.linkedin.com/in/nadja-van-schie-profile" target="_blank">LinkedIn</a>
-                    <form>
+                <br>
+                    <form id="contactform" action="https://formspree.io/f/xdobpron" method="POST">
                         <br>
                         <label for="name">*Name:</label>
                         <br>
@@ -83,7 +84,7 @@
                         <br>
                         <label for="mobile">Mobile (optional):</label>
                         <br>
-                        <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+                        <input type="text" name="mobile" id="mobile" pattern="[0-9]{10,16}">
                         <br>
                         <br>
                         <label for="messages">*Leave your message below.</label>
