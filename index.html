@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <body>     
+       <header id="header">
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#About"> About</a>
+            <a href="#Skills"> Skills</a>
+            <a href="#Accomplishments"> Accomplishments </a>
+            <a href="#Contact"> Contact</a>
+            <a href+"javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></a>
+            <h1>Nadja van Schie</h1> 
+        </nav>  
+            </header>
+            <main>
+            <div id="aboutsection">
+                <figure>
+                <a href="https://www.linkedin.com/in/nadja-van-schie-profile" target="_blank"><img src=Graduationphoto.JPG alt="A photo of Nadja van Schie graduating with her Bachelor of Law (honours) and Bachelor of Biomedical Science from the Queensland Univeristy of Technology." width="300" height="300" id="img"/></a>
+                </figure>
+                <!--This Section is all about me-->
+                <h2 id="About" class="uppercase heading"> About</h2>
+                    <p>I am a Master of Philosophy candidate at the Queensland Univeristy of Technology. I am researching <em>Fibroblast Growth Factor Receptor</em> isoform switching in <strong>endometrial cancer</strong> and potential therapeutic biomarkers for response to treatment. I am a curious person who loves learning and I hope to positively contribute to the field of cancer biology with my research.</p>
+                <br>
+                <br>
+                <!--This section lists my different skills-->   
+                <h3 id="Skills">Skills</h3>
+                        <h4>Research Skills</h4>
+                            <ul class="list">
+                                    <li>Tissue culture</li>
+                                    <li>Data analysis</li>
+                                    <li>Statistical analysis</li>
+                            </ul>
+                        <h4>Interpersonal Skills</h4>
+                            <ul class="list">
+                                <li>Negotiation and mediation</li>
+                                <li>Communication</li>
+                                <li>Problem solving</li>
+                                <li>Decision making</li>
+                            </ul>
+                        <h4>Technical Skills</h4>
+                            <ul class="list">
+                                <li>Project management</li>
+                                <li>Online database searching</li>
+                            </ul>
+            </div>
+            <div id="accomplishmentssection">
+                <!--This section is my accomplishments to date-->
+                <h2 id="Accomplishments">Accomplishments</h2>
+                    <table>
+                        <tr>
+                            <th scope="Col">Publications</th>
+                            <th scope="Col">Awards</th>
+                            <th scope="Col">Presentations</th>
+                        </tr>
+                        <tr>
+                            <td>Nil</td>
+                            <td>Best Elevation Pitch in Cancer Biology</td>
+                            <td>Nil</td>
+                        </tr>
+                    </table>
+                    <h3>Coding Examples</h3>
+                    <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+            </div>
+            <div id="contactsection">
+                <!--This section is who to contact me-->
+                <h2 id="Contact"class="contactform">Contact</h2>
+                    <a href="https://www.linkedin.com/in/nadja-van-schie-profile" target="_blank">LinkedIn</a>
+                    <form>
+                        <br>
+                        <label for="name">*Name:</label>
+                        <br>
+                        <input type="text" name="Name" required value="Nadja">
+                        <br>
+                        <br>
+                        <label for="email">*Email:</label>
+                        <br>
+                        <input type="text" name="Email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-+\.[a-z]{2,}$">
+                        <br>
+                        <br>
+                        <label for="mobile">Mobile (optional):</label>
+                        <br>
+                        <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+                        <br>
+                        <br>
+                        <label for="messages">*Leave your message below.</label>
+                        <br>
+                        <textarea id="messages" name="Message" required rows="5" cols="30"></textarea>
+                        <br>
+                        <br>
+                        <input type="Submit">
+                    </form>
+            </div>
+        </main>
+        <script src="./nav.js"></script>
+    </body>
+        <title>
+            NadPortfolio
+        </title>
+    </head>
+</html>
